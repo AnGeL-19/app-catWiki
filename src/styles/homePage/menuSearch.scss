@@ -1,0 +1,89 @@
+
+
+.div__menu__search{
+
+    box-sizing: border-box;
+
+    width: 395px;
+    // max-height: 220px;
+    margin-top: 15px;
+    padding: 10px;
+
+    background-color: #FFFFFF;
+    border-radius: 24px;
+
+
+    .div__scroll__search{
+        height: 100%;
+        max-height: 220px;
+        overflow-y: auto;
+    }
+
+
+    .div__scroll__search::-webkit-scrollbar{  
+        width: 4px;
+        -webkit-appearance: none;
+    }
+    
+    .div__scroll__search::-webkit-scrollbar-thumb {
+        background-color: #BDBDBD;
+        border-radius: 5px;
+    }
+    
+    .div__scroll__search::-webkit-scrollbar-track {
+        border-radius: 10px;  
+        background-color: #F2F2F2;
+    }
+
+
+
+    .nav__search{
+        outline: none;
+        text-decoration: none;
+       
+        .div__item__search{
+
+            display: flex;
+            align-items: center;
+            width: 100%;
+            height: 56px;
+
+                .search__name{
+
+                    padding: 10px;
+
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 22px;
+
+                    color: #000000;
+                }
+        }
+
+    }
+
+    .div__item__search:hover{
+        background: rgba(151, 151, 151, 0.1);
+        border-radius: 12px;
+    }
+
+}
+
+
+@media screen and (max-width: 1000px){
+
+    .div__menu__search{ 
+        box-sizing: border-box; 
+        width: 320px;
+    }
+
+}
+
+@media screen and (max-width: 790px){
+
+    .div__menu__search{ 
+        box-sizing: border-box; 
+        width: 230px;
+    }
+
+}

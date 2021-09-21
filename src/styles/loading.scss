@@ -1,0 +1,64 @@
+
+
+
+.div__Loading{
+
+
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img{
+        width: 100px;
+    }
+
+    span{
+
+        font-weight: 600;
+        font-size: 68px;
+        line-height: 44px;
+
+    }
+
+}
+
+@media screen and (max-width:520px){
+
+    .div__Loading{
+
+    
+        img{
+            width: 80px;
+        }
+    
+        span{
+    
+            font-size: 60px;
+            // line-height: 44px;
+    
+        }
+    
+    }
+    
+}
+
+@media screen and (max-width:420px){
+
+    .div__Loading{
+
+    
+        img{
+            width: 60px;
+        }
+    
+        span{
+    
+            font-size: 45px;
+            // line-height: 44px;
+    
+        }
+    
+    }
+    
+}

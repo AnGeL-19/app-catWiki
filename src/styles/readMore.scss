@@ -1,0 +1,26 @@
+.link__see__more{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+    outline: none;
+    
+    .span__see, span{ 
+        color: rgba(41, 21, 7, 0.6);
+    }
+
+    .span__see{
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    span{
+        margin-right: 10px;
+    }
+
+    .span__see + span, :hover{
+        color: rgba(41, 21, 7, 0.9);
+    }
+}

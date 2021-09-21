@@ -1,0 +1,734 @@
+.main__container__breeds{
+
+    width: 100%;
+
+    border-radius: 25px;
+
+    background-color: #E3E1DC;
+
+    .div_container__search{
+
+        position: relative;
+        width: 100%;
+        height: 538px;
+
+        .img__cat{
+
+            position: absolute;
+            width: 100%;
+            height: 100%;
+
+            object-fit: fill;
+            overflow: hidden;
+            border-radius: 25px 25px 0 0;
+
+            z-index: 9;
+        }
+
+        .div__info__search{
+
+            position: absolute;
+
+            margin-top: 118px;
+            margin-left: 108px;
+
+            z-index: 999;
+
+            .div_img{
+
+                margin-bottom: 10px;
+
+                width: 290px;
+                height: 87px;
+         
+                img{
+                    height: 100%;
+                }
+            }
+
+            .infoSearch{
+
+                width: 371px;
+                margin: 0;
+                margin-bottom: 50px;
+
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 29px;
+
+                color: #FFFFFF;
+            }
+
+            .form__input__span{
+
+                position: relative;
+
+                width: 395px;
+                height: 70px;
+
+                .input__search{
+
+                    width: 100%;
+                    height: 100%;
+
+                    box-sizing: border-box;
+
+                    padding-left: 25px;
+                    padding-right: 55px;
+
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 22px;
+                    color: #291507;
+
+                    border-radius: 59px;
+
+                    border: none;
+                    outline: none;
+                    
+                }
+
+                span{
+                    position: absolute;
+                    top: 25px;
+                    right: 25px;
+                    width: 25px;
+
+                    color: #291507;
+                }
+            
+            }
+
+        }
+
+    }
+
+    .div__discover{
+
+        padding: 40px 100px 100px 100px;
+
+        .span__mostSearched{
+
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+
+            color: #291507;
+
+            .link__most{
+                
+                color: #291507;
+                text-decoration: underline;
+                font-weight: bold;
+            }
+
+        }
+
+        .div__discover__more{
+
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: flex-end;
+            margin: 45px 0 45px 0;
+
+            .p__breedsDiscover{
+
+                width: 535px;
+                margin: 0;
+                font-weight: bold;
+                font-size: 48px;
+                line-height: 59px;
+                
+                color: #291507;
+            }   
+        }
+        .div__images__cats{
+
+            display: grid;
+            grid-template-columns: repeat(auto-fill, 220px);
+            grid-template-columns: rows(auto-fill, 220px);
+            justify-content: space-between;
+            gap: 50px;
+
+            .div__info__cat{
+
+                .link__info{
+                    text-decoration: none;
+                    outline: none;
+                }
+
+                .div__img{
+
+                    width: 220px;
+                    height: 220px;
+
+                    margin-bottom: 20px;
+
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        border-radius: 24px;
+                        object-fit: cover;
+                    }
+
+                }
+
+                .span__nameCat{
+                    font-weight: 600;
+                    font-size: 18px;
+                    line-height: 22px;
+
+                    color: #291507;
+                }
+
+            }
+
+        }
+    }
+
+}
+
+.section__questionCats{
+
+    display: flex;
+    flex-direction: row;
+    padding: 100px 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    .div__question{
+
+        display: flex;
+        flex-direction: column;
+
+        width: 448px;
+        margin-right: 45px;
+
+        .question{
+            margin-bottom: 40px;
+
+            font-weight: bold;
+            font-size: 48px;
+            line-height: 59px;
+
+            color: #291507;
+        }
+
+        .div__p__info{
+            margin-bottom: 65px;
+            p{
+                margin: 0;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 22px;
+            }
+        }
+        
+
+    }
+
+    .div__imgsCats{
+
+        display: flex;
+        flex-direction: row;
+
+        .div__imgs{
+
+            display: flex;
+            flex-direction: column;
+            margin-right: 28px;
+            align-items: flex-end;
+
+            .div__img1{
+                width: 195px;
+                height: 293px;
+
+                img{
+                    width: 100%;
+                    height: 100%;
+        
+                    object-fit: contain; 
+                }
+            }
+
+            .div__img2{
+
+                width: 273px;
+                height: 167px;
+                margin-bottom: 28px;
+
+                img{
+                    width: 100%;
+                    height: 100%;
+        
+                    object-fit: contain; 
+                }
+
+            }
+
+        }
+
+    }
+
+    .div__img3{
+        width: 238px;
+        height: 385px;
+
+        img{
+            width: 100%;
+            height: 100%;
+
+            object-fit: contain;
+        }
+    }
+
+}
+
+@media screen and (max-width: 1200px){
+    
+    .main__container__breeds{
+    
+        .div_container__search{
+
+            height: 450px;
+       
+            .div__info__search{
+
+                margin-top: 80px;
+                margin-left: 70px;
+            }
+        }
+    }
+
+    .section__questionCats{
+
+        .div__question{
+            a{
+                margin: 0;
+                margin-bottom: 50px;
+            }
+        }
+
+    }
+
+}
+
+@media screen and (max-width: 1080px){
+    
+
+    .main__container__breeds{
+
+        .div__discover {
+
+            padding: 40px 80px 60px 80px;
+
+            .div__images__cats{
+
+                grid-template-columns: repeat(auto-fill, 250px);
+                justify-content: space-around;
+
+                .div__info__cat{
+
+                    .div__img{
+                        width: 250px;
+                        height: 250px;      
+                    }
+                }
+                    // grid-template-columns: repeat(auto-fill, 240px);
+                
+            }
+        }
+    } 
+      
+
+}
+
+@media screen and (max-width: 1000px){
+    
+    body{
+        padding: 25px 30px 0;
+    }
+
+    .main__container__breeds{
+
+        .div_container__search{
+
+            height: 400px;
+       
+            .div__info__search{
+
+                margin-top: 60px;
+                margin-left: 40px;
+
+                .div_img{
+                    height: 65px;
+                }
+
+                .infoSearch{
+                    width: 300px;
+                    font-size: 20px;
+                    margin-bottom: 30px;
+                }
+
+                .form__input__span{
+                    width: 320px;
+                    height: 60px;
+
+                    span{
+                        top: 18px;
+                        right: 18px;
+                    }
+                }
+
+            }
+            
+        }
+
+        .div__discover {
+
+            padding: 30px 40px 40px 40px;
+
+            .div__images__cats{
+
+                grid-template-columns: repeat(auto-fill, 250px);
+                justify-content: space-around;
+
+                .div__info__cat{
+
+                    .div__img{
+                        width: 250px;
+                        height: 250px;      
+                    }
+                }
+                
+            }
+        }
+    } 
+      
+
+}
+
+@media screen and (max-width: 835px){
+    
+
+    .main__container__breeds{
+
+        .div_container__search{
+
+            height: 330px;
+       
+            .div__info__search{
+
+                margin-top: 40px;
+
+            }
+            
+        }
+
+        .div__discover {
+
+            padding: 30px 40px 40px 40px;
+
+            .div__discover__more{
+
+                margin: 35px 0 35px 0;
+
+                .p__breedsDiscover {
+                    width: 390px;
+                    font-size: 38px;
+                    line-height: 40px;
+                }
+            }
+
+            .div__images__cats{
+
+               
+                grid-gap: 10px;
+
+                
+            }
+        }
+    } 
+
+    .section__questionCats {
+    
+        padding: 50px 10px;
+
+    }
+
+      
+
+}
+
+@media screen and (max-width: 790px){
+
+    .main__container__breeds{
+
+        .div_container__search { 
+
+            height: 260px;
+
+            .img__cat{
+                height: 260px;
+            }
+
+            .div__info__search{
+                margin-top: 30px;
+                margin-left: 30px;
+
+                .div_img{
+                    height: 45px;
+                }
+
+                .infoSearch{
+                    width: 250px;
+                    font-size: 18px;
+                    margin-bottom: 15px;
+                }
+
+                .form__input__span{
+                    width: 230px;
+                    height: 40px;
+
+                    .input__search{
+                        padding-left: 15px;
+                        padding-right: 40px;
+                    }
+
+                    span{
+                        top: 8px;
+                        right: 8px;
+                        font-size: 23px;
+                    }
+                }
+            }
+        }
+
+        
+    } 
+
+
+
+}
+
+@media screen and (max-width: 670px){
+
+    body{
+        padding: 15px 10px 0;
+    }
+
+    .main__container__breeds{
+    
+        .div__discover{
+            padding: 20px;
+
+            .div__discover__more{
+                margin: 25px 0 25px 0;
+
+                .p__breedsDiscover{
+                    width: 260px;
+                    font-size: 25px;
+                }
+
+            }
+
+            .div__images__cats{
+
+                grid-template-columns: repeat(2, 200px);
+                flex-wrap: nowrap;
+                
+                .div__info__cat{
+
+                    .div__img{
+                        width: 200px;
+                        height: 200px;
+                    }
+
+                }
+            }
+
+        }
+    }
+
+    .section__questionCats{
+
+        padding: 20px 0 25px;
+
+        .div__question{
+
+            margin: 0;
+
+            .question{
+               font-size: 40px; 
+            }
+
+            .div__p__info{
+                margin-bottom: 35px;
+            }
+
+        }
+
+        .div__imgsCats{
+
+
+            .div__imgs{
+                margin-right: 10px;
+
+                .div__img2{
+                    width: 233px;
+                    height: 145px;
+                }
+
+                .div__img1{
+                    width: 170px;
+                    height: 253px;
+                }
+
+            }
+
+            .div__img3{
+                width: 218px;
+                height: 365px;
+            }
+        }
+
+    }
+
+}
+
+@media screen and (max-width: 510px){
+
+
+    .main__container__breeds{
+
+        .div_container__search{
+
+            height: 180px;
+
+            .img__cat{
+                height: 180px;
+            }
+       
+            .div__info__search{
+
+                margin-top: 10px;
+                margin-left: 20px;
+
+                .div_img{
+                    height: 40px;
+                }
+
+                .infoSearch{
+                    width: 200px;
+                    font-size: 10px;
+                    line-height: 12px;
+                    margin-bottom: 20px;
+                }
+
+                .form__input__span{
+                    width: 120px;
+                    height: 30px;
+                    
+                    .input__search{
+                        padding-left: 10px;
+                        padding-right: 30px;
+                    }
+
+                    span{
+                        top: 3px;
+                        right: 2px;
+                    }
+                }
+
+            }
+            
+        }
+    
+        .div__discover{
+            padding: 20px;
+
+            .div__discover__more{
+                margin: 15px 0 15px 0;
+
+                .p__breedsDiscover{
+                    width: 260px;
+                    line-height: 22px;
+                    font-size: 22px;
+                }
+
+                .link__see__more{
+                    .span__see{
+                        display: none;  
+                    }
+                    .material-icons{
+                        margin: 0;
+                    }
+                }
+
+            }
+
+            .div__images__cats{
+
+                grid-template-columns: repeat(2, 140px);
+                flex-wrap: nowrap;
+                
+                .div__info__cat{
+
+                    .div__img{
+                        width: 140px;
+                        height: 140px;
+                    }
+
+                }
+            }
+
+        }
+    }
+
+    .section__questionCats{
+
+        padding: 20px 0 25px;
+
+        .div__question{
+
+            margin: 0;
+
+            .question{
+               line-height: 40px;
+               font-size: 35px; 
+            }
+
+            .div__p__info{
+                margin-bottom: 35px;
+            }
+
+        }
+
+        .div__imgsCats{
+
+
+            .div__imgs{
+
+                .div__img2{
+                    width: 172px;
+                    height: 105px;
+                }
+
+                .div__img1{
+                    width: 122px;
+                    height: 180px;
+                }
+
+            }
+
+            .div__img3{
+                width: 150px;
+                height: 242px;
+            }
+        }
+
+    }
+
+}
