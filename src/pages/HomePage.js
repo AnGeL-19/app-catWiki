@@ -37,7 +37,9 @@ export const HomePage = () => {
     }, [dispatch])
 
 
-    const imgsMemo = useMemo(() => imgsRandom(popularBreed),popularBreed);
+    const imgsMemo = useMemo(() => {
+        return imgsRandom(popularBreed)
+    },[popularBreed]);
 
     const [value, handleChangeValue] = useForm({
         search: ''

@@ -1,4 +1,4 @@
-import React, { memo } from 'react'
+import React from 'react'
 import { useDispatch } from 'react-redux';
 import { closeMenuMobile, searchBreed } from '../../action/ui';
 import { useForm } from '../../hooks/useForm'
